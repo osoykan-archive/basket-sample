@@ -55,6 +55,8 @@ Note that only master branch can create a Nuget package when it is built.
 
 ## Architectural Principles & Modeling
 
+![Overal](misc/overall.png)
+
 Domain Driven Design principles are used in this problem. Therefore given name is `BasketContext` to this solution. `Context` means that, this is a bounded context which provides a solution to Basket domain.
 
 `BasketContext` has an API to interact with. 
