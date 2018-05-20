@@ -1,0 +1,13 @@
+﻿<SolutionConfiguration>
+  <Settings>
+    <AllowParallelTestExecution>True</AllowParallelTestExecution>
+    <MetricsExclusionList>
+      <Value>test\BasketContext.Api.IntegrationTests\BasketContext.Api.IntegrationTests.csproj</Value>
+      <Value>test\BasketContext.Domain.IntegrationTests\BasketContext.Domain.IntegrationTests.csproj</Value>
+      <Value>test\BasketContext.Domain.Tests\BasketContext.Domain.Tests.csproj</Value>
+      <Value>src\BasketContext.Client\BasketContext.Client.csproj</Value>
+      <Value>src\BasketContext.Framework\BasketContext.Framework.csproj</Value>
+    </MetricsExclusionList>
+    <SolutionConfigured>True</SolutionConfigured>
+  </Settings>
+</SolutionConfiguration>
