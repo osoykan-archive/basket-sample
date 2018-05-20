@@ -69,7 +69,7 @@ API uses;
 
 ### BasketContext.Framework
 
-There is a framework projection in the solution. That provides an infrastructure to modeling the domain. That means that, for instance if we need to create an event-aware domain model we need to take `AggregateRoot` as a base class of our domain model. Like as `Basket : AggregateRoot<Guid>`. Framework project simply provides a base solution for registering domain events. Also this is same for `Entity`, the lense we look for the Domain Driven Design needs that `BasketItem` must be entity. Therefore **BasketItem** should be an **Entity** like `BasketItem : Entity<Guid>`.
+There is a framework project in the solution. That provides an infrastructure to modeling the domain. That means that, for instance if we need to create an event-aware domain model we need to take `AggregateRoot` as a base class of our domain model. Like as `Basket : AggregateRoot<Guid>`. Framework project simply provides a base solution for registering domain events. Also this is same for `Entity`, the lense we look for the Domain Driven Design needs that `BasketItem` must be entity. Therefore **BasketItem** should be an **Entity** like `BasketItem : Entity<Guid>`.
 
 ![Framework](misc/framework.png)
 
